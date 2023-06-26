@@ -1,0 +1,220 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "extern",
+					"jsonFile" : "directory-extern-Debug-88bde94350c4fc5056f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-c45c8a39efeb07f622db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "StepMania",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "StepMania::@145eef247bfb46b6828c",
+					"jsonFile" : "target-StepMania-Debug-0735e99e1b59586ae44c.json",
+					"name" : "StepMania",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glew::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-glew-Debug-95cb0ccd0a00d8252d6a.json",
+					"name" : "glew",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "jpeg::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-jpeg-Debug-c6cfc90e792dbeab5613.json",
+					"name" : "jpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "jsoncpp::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-jsoncpp-Debug-d92589977cbd6415081d.json",
+					"name" : "jsoncpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lua-5.1::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-lua-5.1-Debug-66939b863dbecee84f18.json",
+					"name" : "lua-5.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mad::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-mad-Debug-627c784c0b11e150e8df.json",
+					"name" : "mad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mapconv::@145eef247bfb46b6828c",
+					"jsonFile" : "target-mapconv-Debug-8c1def11c73865151f1d.json",
+					"name" : "mapconv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ogg::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-ogg-Debug-7882dc3f08b96716c551.json",
+					"name" : "ogg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pcre::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-pcre-Debug-59192ee997bcc67e4d1b.json",
+					"name" : "pcre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "png::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-png-Debug-36e8af75854155e007f1.json",
+					"name" : "png",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tomcrypt::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-tomcrypt-Debug-19ec1c6a31571e11aae1.json",
+					"name" : "tomcrypt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tommath::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-tommath-Debug-dda23fd0019916e53ff5.json",
+					"name" : "tommath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vorbis::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-vorbis-Debug-807b6e9fe51deb78b722.json",
+					"name" : "vorbis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vorbisfile::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-vorbisfile-Debug-0f048e468edc2ccea5a3.json",
+					"name" : "vorbisfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zlib::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-zlib-Debug-dcfe5db0095853971ef3.json",
+					"name" : "zlib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jrivero/Documents/_Personal/stepmania/out/build/x64-Debug",
+		"source" : "C:/Users/jrivero/Documents/_Personal/stepmania"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
