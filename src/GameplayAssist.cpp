@@ -6,6 +6,7 @@
 #include "CommonMetrics.h"
 #include "Song.h"
 #include "NoteData.h"
+#include "PrefsManager.h"
 
 void GameplayAssist::Init()
 {
@@ -34,6 +35,7 @@ void GameplayAssist::PlayTicks( const NoteData &nd, const PlayerState *ps )
 
 	//float fPositionSeconds = GAMESTATE->m_Position.m_fMusicSeconds;
 	fPositionSeconds += SOUNDMAN->GetPlayLatency() + (float)CommonMetrics::TICK_EARLY_SECONDS + 0.250f;
+	fPositionSeconds += PrefsManager::m_clapDelay;
 	const TimingData &timing = *GAMESTATE->m_pCurSteps[ps->m_PlayerNumber]->GetTimingData();
 	const float fSongBeat = timing.GetBeatFromElapsedTimeNoOffset( fPositionSeconds );
 
